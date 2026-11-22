@@ -11,7 +11,7 @@ Course project for **IT135IU – Introduction to Data Science** (VNU-HCM Interna
 .
 ├── data/                          # location for a manually downloaded archive if needed
 ├── notebooks/
-│   └── D2_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb   # main analysis notebook (D2 – Data Profiling)
+│   └── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb   # main analysis notebook (D3 – Analysis)
 ├── tools/                         # small helper scripts for reproducibility
 │   ├── freeze_from_notebook.py
 │   ├── clean_notebook.py
@@ -45,9 +45,9 @@ Download [`ml-1m.zip`](https://grouplens.org/datasets/movielens/1m/) manually an
    ```bash
    pip install -r requirements.txt
    ```
-3. Open `D2_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb` and choose **Restart and run all**. The dataset is downloaded automatically.
+3. Open `D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb` and choose **Restart and run all**. The dataset is downloaded automatically.
 
-All randomness is seeded with **`SEED = 42`** at Step 1 to support reproducible results. The current D2 profiling steps do not use random sampling.
+All randomness is seeded with **`SEED = 42`** at Step 1 to support reproducible results.
 
 ## Helper scripts
 
