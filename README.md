@@ -10,7 +10,9 @@ Course project for **IT135IU – Introduction to Data Science** (VNU-HCM Interna
 ```text
 .
 ├── data/                          # location for a manually downloaded archive if needed
-├── notebooks/
+├── notebooks/  
+│   ├── D2_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb   # D2 data profiling archive
+│   ├── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.pdf     # Executed D3 notebook (PDF)
 │   └── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb   # main analysis notebook (D3 – Analysis)
 ├── tools/                         # small helper scripts for reproducibility
 │   ├── freeze_from_notebook.py
