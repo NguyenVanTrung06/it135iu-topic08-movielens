@@ -22,7 +22,7 @@ Course project for **IT135IU – Introduction to Data Science** (VNU-HCM Interna
 │   └── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.pdf
 ├── report/
 │   ├── analystA/
-│   │   ├── D3_check_Que.csv 
+│   │   ├── D3_check_Que.csv
 │   │   ├── D3_Analyst_A_Que.ipynb
 │   │   └── D3_Analyst_A_Que_notes.pdf
 │   ├── analystB/
@@ -65,9 +65,9 @@ Download [`ml-1m.zip`](https://grouplens.org/datasets/movielens/1m/) manually an
    ```bash
    pip install -r requirements.txt
    ```
-3. Open `D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb` and choose **Restart and run all**. The dataset is downloaded automatically.
+3. Open `notebooks/D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb` and choose **Restart and run all**. The dataset is downloaded automatically.
 
-All randomness is seeded with **`SEED = 42`** at Step 1 to support reproducible results.
+All randomness is seeded globally with **`SEED = 42`** (`np.random.seed(SEED)` for the Step B1 user split, and `np.random.default_rng(SEED)` for 1,000 bootstrap resamples in Steps B4–B6 and 10,000 resamples in Step B8) to guarantee reproducible results.
 
 ## Helper scripts
 
@@ -77,6 +77,16 @@ All randomness is seeded with **`SEED = 42`** at Step 1 to support reproducible 
 | `tools/clean_notebook.py` | Removes personal metadata (Colab `executionInfo`) before committing |
 | `tools/check_seed.py` | Lists lines that use randomness and whether a seed is visible |
 | `tools/compare_runs.py` | Compares the text outputs of two executed runs |
+
+## Team & Contributions (Group 3)
+
+- **Phuong** – Product Owner (problem framing, KPI definition, business recommendations)
+- **Le Quan (`Aqvanax`)** – Data Engineering & Base D3 Pipeline (data cleaning, demographic segmentation, Step B1 user split)
+- **Que** – Analyst A (descriptive statistics & segment/genre summary tables, Steps Q0–Q2)
+- **Hoang Quan** – Analyst B (LCB ranking, baseline estimation & bootstrap hypothesis testing, Steps B2–B9)
+- **Tuyen** – Data Visualization (charts & visual communication, Steps B10.1–B10.4)
+- **Trung** – Reproducibility Lead (repository architecture, dependency pinning, notebook merging & verification)
+- **Cuong** – Ethics & Governance Lead (bias audit, privacy & responsible use assessment)
 
 ## Responsible use
 
