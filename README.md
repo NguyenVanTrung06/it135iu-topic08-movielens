@@ -9,19 +9,36 @@ Course project for **IT135IU – Introduction to Data Science** (VNU-HCM Interna
 
 ```text
 .
-├── data/                          # location for a manually downloaded archive if needed
-├── notebooks/  
-│   ├── D2_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb   # D2 data profiling archive
-│   ├── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.pdf     # Executed D3 notebook (PDF)
-│   └── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb   # main analysis notebook (D3 – Analysis)
-├── tools/                         # small helper scripts for reproducibility
-│   ├── freeze_from_notebook.py
-│   ├── clean_notebook.py
-│   ├── check_seed.py
-│   └── compare_runs.py
-├── .gitignore                     # blocks data files (*.dat, *.csv, *.parquet)
-├── requirements.txt               # exact package versions from the environment that ran the notebook
-└── README.md
+├── .gitignore
+├── README.md
+├── REPRODUCIBILITY_REPORT_TEMPLATE.md
+├── requirements.txt
+├── data/
+│   ├── .gitkeep
+│   └── README.md
+├── notebooks/
+│   ├── D2_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb
+│   ├── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb
+│   └── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.pdf
+├── report/
+│   ├── Ethics/
+│   │   └── D3_Ethics_Cuong_v2.pdf
+│   ├── analystA/
+│   │   ├── D3_check_Que.csv
+│   │   └── D3_Analyst_A_Que_notes.pdf
+│   ├── analystB/
+│   │   ├── D3_Analyst_B_HoangQuan_notes_v2.pdf
+│   │   └── D3_columns_HoangQuan_v2.pdf
+│   └── productOwner/
+│   │    └── D3_ProductOwner_Phuong_v2.pdf
+│   └── visualization/
+│       └── D3_Viz_Tuyen 2.ipynb
+
+└── tools/
+    ├── check_seed.py
+    ├── clean_notebook.py
+    ├── compare_runs.py
+    └── freeze_from_notebook.py
 ```
 
 ## Data (not included)
