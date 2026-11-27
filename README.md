@@ -9,36 +9,37 @@ Course project for **IT135IU – Introduction to Data Science** (VNU-HCM Interna
 
 ```text
 .
-├── .gitignore
+├── .gitignore                              # excludes data files and generated artifacts
 ├── README.md
 ├── REPRODUCIBILITY_REPORT_TEMPLATE.md
-├── requirements.txt
+├── requirements.txt                        # pinned environment dependencies
 ├── data/
-│   ├── .gitkeep
+│   ├── .gitkeep                            # keeps the directory in version control
 │   └── README.md
 ├── notebooks/
 │   ├── D2_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb
 │   ├── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.ipynb
 │   └── D3_Topic08_Phuong_LeQuan_Que_HoangQuan_Tuyen_Trung_Cuong.pdf
 ├── report/
-│   ├── Ethics/
-│   │   └── D3_Ethics_Cuong_v2.pdf
 │   ├── analystA/
-│   │   ├── D3_check_Que.csv
+│   │   ├── D3_check_Que.csv 
+│   │   ├── D3_Analyst_A_Que.ipynb
 │   │   └── D3_Analyst_A_Que_notes.pdf
 │   ├── analystB/
+│   │   ├── D3_Analyst_B_HoangQuan.ipynb
 │   │   ├── D3_Analyst_B_HoangQuan_notes_v2.pdf
 │   │   └── D3_columns_HoangQuan_v2.pdf
-│   └── productOwner/
-│   │    └── D3_ProductOwner_Phuong_v2.pdf
-│   └── visualization/
-│       └── D3_Viz_Tuyen 2.ipynb
-
+│   ├── Ethics/
+│   │   └── D3_Ethics_Cuong_v2.pdf
+│   ├── productOwner/
+│   │   └── D3_ProductOwner_Phuong_v2.pdf
+│   └── Visualization/
+│       └── D3_Viz_Tuyen.ipynb
 └── tools/
-    ├── check_seed.py
-    ├── clean_notebook.py
-    ├── compare_runs.py
-    └── freeze_from_notebook.py
+    ├── check_seed.py                        # checks visible random seeds
+    ├── clean_notebook.py                    # removes personal notebook metadata
+    ├── compare_runs.py                      # compares executed notebook outputs
+    └── freeze_from_notebook.py              # records environment dependencies
 ```
 
 ## Data (not included)

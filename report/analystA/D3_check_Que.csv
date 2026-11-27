@@ -1,0 +1,15 @@
+segment,gender,age_group,category,reason,t_s,b,m
+F Under 18,F,Under 18,insufficient_evidence,no reliable cell in the segment,,War; Drama; Crime,11
+F 18-24,F,18-24,to_test,,Film-Noir; War; Musical,War; Drama; Crime,11
+F 25-34,F,25-34,to_test,,Film-Noir; Documentary; War,War; Drama; Crime,11
+F 35-44,F,35-44,to_test,,Film-Noir; War; Musical,War; Drama; Crime,11
+F 45-49,F,45-49,to_test,,War; Musical; Drama,War; Drama; Crime,11
+F 50-55,F,50-55,to_test,,War; Drama; Romance,War; Drama; Crime,11
+F 56+,F,56+,insufficient_evidence,genre of B indicative in the segment: War; Crime,Drama; Romance; Thriller,War; Drama; Crime,11
+M Under 18,M,Under 18,same_as_baseline,T(s) equals B,War; Drama; Crime,War; Drama; Crime,11
+M 18-24,M,18-24,to_test,,Film-Noir; War; Documentary,War; Drama; Crime,11
+M 25-34,M,25-34,to_test,,Film-Noir; Documentary; War,War; Drama; Crime,11
+M 35-44,M,35-44,to_test,,Film-Noir; Documentary; War,War; Drama; Crime,11
+M 45-49,M,45-49,to_test,,Film-Noir; War; Crime,War; Drama; Crime,11
+M 50-55,M,50-55,to_test,,Film-Noir; War; Mystery,War; Drama; Crime,11
+M 56+,M,56+,to_test,,Film-Noir; War; Musical,War; Drama; Crime,11
